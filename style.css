@@ -1,0 +1,206 @@
+/* Basic stuff */
+
+body {
+    margin: 0;
+    background-color: #3b3b3b;
+}
+
+/* Text-formatting - .alt = alternative formatting class */
+
+hr {
+    border-color: #8f8f8f;
+    border-width: 1px;
+    border-style: solid;
+}
+
+h1 {
+    font-family: Josefin Slab;
+    color: white;
+    font-size: 36pt;
+    padding: 12pt 0 0 0;
+    margin: 0;
+}
+
+h1.block {
+    font-family: Josefin Sans;
+    color: white;
+    font-size: 36pt;
+    padding: 12pt 0 0 0;
+    margin: 0 0 0 -5px;
+}
+
+h1.alt {
+    font-family: Noto Sans;
+    color: #8f8f8f;
+    padding: 12pt 0 0 0;
+    margin: 0 0 0 -5px;
+}
+
+h2 {
+    font-family: Josefin Slab;
+    font-size: 24pt;
+    color: white;
+}
+
+h2.alt {
+    font-family: Noto Sans;
+    font-size: 24pt;
+    color: #8f8f8f;
+}
+
+h3 {
+    font-family: Josefin Slab;
+    font-size: 16pt;
+    color: white;
+    padding: 12pt 0px 8px 0px;
+    margin: 0;
+}
+
+h3.alt {
+    font-family: Noto Sans;
+    font-size: 16pt;
+    
+    font-family: Noto Sans;
+    color: #8f8f8f;
+    padding: 12pt 0 0 0;
+    margin: 0 0 0 -5px;
+}
+
+h2 {
+    font-family: Josefin Slab;
+    font-size: 24pt;
+    color: white;
+    padding: 12pt 0px 8px 0px;
+    margin: 0;
+}
+
+h2.alt {
+    font-family: Noto Sans;
+    font-size: 24pt;
+    color: #8f8f8f;
+    padding: 12pt 0px 8px 0px;
+    margin: 0;
+}
+
+h3 {
+    font-family: Josefin Slab;
+    font-size: 16pt;
+    color: white;
+    padding: 12pt 0px 8px 0px;
+    margin: 0;
+}
+
+p {
+    font-family: Josefin Sans;
+    color: white;
+    font-size: 14pt;
+    margin: 0;
+    padding: 12pt 0 4pt 0;
+    text-align: justify;
+}
+
+p.alt {
+    font-family: Noto Sans;
+    color: #8f8f8f;
+    font-size: 10pt;
+    max-height: 60px;
+    padding: 14px 25px;
+    margin: auto;
+    display: inline-block;
+    text-align: center;
+}
+
+p.foto {
+    font-family: Noto Sans;
+    color: #8f8f8f;
+    font-size: 11pt;
+    margin: 0;
+    padding: 2px 0px 12px 0px;
+}
+
+/* Link formatting */
+
+a {
+    font-family: Noto Sans;
+    color: #8f8f8f;
+}
+
+a.menu {
+    background-color: #1b1926;
+    color: #f8f8f8;
+    width: 10%;
+    padding: 14px 25px;
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a.menu:hover {
+    background-color: #f0544c;
+    color: #161616;
+    padding: 14px 25px;
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* Boxes */
+
+#header {
+    z-index: 20;
+    display: block;
+    float: top;
+    width: 100%;
+    padding: auto;
+    margin: auto;
+    position: fixed;
+    background-color: #1b1926;
+}
+
+#menu {
+    margin: auto;
+    padding: auto;
+    width: 100%;
+    display: inline-block;
+}
+
+#footer {
+    z-index: 20;
+    display: block;
+    width: 100%;
+    max-height: 60px;
+    bottom: 0;
+    position: fixed;
+    background-color: #1b1926;
+}
+
+#contact {
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+    display: block;
+}
+
+.contact {
+    font-family: Noto Sans;
+    color: #8f8f8f;
+    font-size: 10pt;
+    background-color: #1b1926;
+    max-height: 60px;
+    padding: 14px 25px;
+    margin: auto;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#content {
+    z-index: 10;
+    width: 50%;
+    top: 60px;
+    padding-bottom: 100px;
+    position: relative;
+    margin: auto;
+}
